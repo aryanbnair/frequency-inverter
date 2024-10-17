@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CNA6P1X7R2A475K250AE
+D Multilayer Ceramic Chip Capacitors, Capacitance=4.7uF, LxWxT:3.2x2.5x2.5mm
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf
+$ENDCMP
+#
+#End Doc Library

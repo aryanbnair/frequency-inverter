@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZX384-B5V1,115
+D Zener Diodes BZX384-B5V1/SOD323/SOD2
+K
+F https://assets.nexperia.com/documents/data-sheet/BZX384_SER.pdf
+$ENDCMP
+#
+#End Doc Library

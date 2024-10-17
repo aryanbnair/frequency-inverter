@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM1206SRC
+D Red 640nm LED Indication - Discrete 1.85V 1206 (3216 Metric)
+K
+F https://www.bivar.com/parts_content/Datasheets/SM1206SRC.pdf
+$ENDCMP
+#
+#End Doc Library

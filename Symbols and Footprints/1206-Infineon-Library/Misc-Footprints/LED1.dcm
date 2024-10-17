@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HSMQ-C150
+D Broadcom 527 nm Green LED, 3216 (1206) SMD package
+K
+F https://docs.broadcom.com/docs/AV02-0977EN
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLS205B0EJV50XUMA1
+D INFINEON - TLS205B0EJV50XUMA1 - LDO, FIXED, 5V, 0.5A, HSOIC-8
+K
+F https://www.infineon.com/dgdl/Infineon-TLS205B0V50-DS-v01_10-EN.pdf?fileId=5546d46258fc0bc1015969dadc094224
+$ENDCMP
+#
+#End Doc Library

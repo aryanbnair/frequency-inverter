@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMD2150PL-TP
+D Diode 150 V 2A Surface Mount SOD-123FL
+K
+F https://www.mccsemi.com/pdf/Products/SMD2150PL-SMD220PL(SOD-123FL).pdf
+$ENDCMP
+#
+#End Doc Library

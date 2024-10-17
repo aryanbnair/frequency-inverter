@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  2024-10-10 23:03:21
+# encoding utf-8
+Units mm
+$INDEX
+C5750_Commercial
+$EndINDEX
+$MODULE C5750_Commercial
+Po 0 0 0 15 67084f29 00000000 ~~
+Li C5750_Commercial
+Cd C5750_Commercial
+Kw Capacitor
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "C**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "C5750_Commercial"
+DS -2.85 -2.5 2.85 -2.5 0.2 24
+DS 2.85 -2.5 2.85 2.5 0.2 24
+DS 2.85 2.5 -2.85 2.5 0.2 24
+DS -2.85 2.5 -2.85 -2.5 0.2 24
+DS -5.325 -3.7 4.525 -3.7 0.05 24
+DS 4.525 -3.7 4.525 3.7 0.05 24
+DS 4.525 3.7 -5.325 3.7 0.05 24
+DS -5.325 3.7 -5.325 -3.7 0.05 24
+DC -4.225 0 -4.275 0 0.254 21
+$PAD
+Po -2.875 0
+Sh "1" R 1.3 4.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.875 0
+Sh "2" R 1.3 4.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE C5750_Commercial
+$EndLIBRARY

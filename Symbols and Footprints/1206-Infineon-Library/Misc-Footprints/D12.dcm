@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMEG3005ELD,315
+D Schottky Diodes & Rectifiers Schottky Diode
+K
+F https://assets.nexperia.com/documents/data-sheet/PMEG3005ELD.pdf
+$ENDCMP
+#
+#End Doc Library

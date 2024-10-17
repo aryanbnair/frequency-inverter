@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S210FA
+D Schottky Diodes & Rectifiers
+K
+F https://www.onsemi.com/pub/Collateral/SS29FA-D.pdf
+$ENDCMP
+#
+#End Doc Library
