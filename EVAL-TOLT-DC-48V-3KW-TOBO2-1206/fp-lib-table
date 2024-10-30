@@ -1,9 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "just-footprints")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/InfineonBoard-Library/just-footprints")(options "")(descr ""))
-  (lib (name "infineon-library-footprints")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/InfineonBoard-Library/infineon-library-footprints.pretty")(options "")(descr ""))
-  (lib (name "Capacitor-Footprints-1206")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/Library-1206/Capacitor-Footprints-1206.pretty")(options "")(descr ""))
-  (lib (name "Capacitor-Footprintsv2-1206")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/Library-1206/Capacitor-Footprintsv2-1206.pretty")(options "")(descr ""))
-  (lib (name "Misc-Footprints-1206")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/Library-1206/Misc-Footprints-1206.pretty")(options "")(descr ""))
-  (lib (name "Resistor-Footprint")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/Library-1206/Resistor-Footprint.pretty")(options "")(descr ""))
-)

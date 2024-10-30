@@ -1,8 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Kap-1206-Footprints")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/1206-Infineon-Library/Kap-1206-Footprints")(options "")(descr ""))
-  (lib (name "just-footprints")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/InfineonBoard-Library/just-footprints")(options "")(descr ""))
-  (lib (name "infineon-library-footprints")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/InfineonBoard-Library/infineon-library-footprints.pretty")(options "")(descr ""))
-  (lib (name "Misc-Footprints")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/1206-Infineon-Library/Misc-Footprints")(options "")(descr ""))
-  (lib (name "infineon-library-footprintsz")(type "KiCad")(uri "/home/aryan-nair/Desktop/frequency-inverter/Symbols and Footprints/InfineonBoard-Library/infineon-library-footprints.pretty")(options "")(descr "")(disabled))
-)

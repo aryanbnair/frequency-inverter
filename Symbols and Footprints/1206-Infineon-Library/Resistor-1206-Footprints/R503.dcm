@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERJ-P08D4992V
+D Anti-Surge Thick Film Chip Resistor, 1206, 0.66W
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf
+$ENDCMP
+#
+#End Doc Library

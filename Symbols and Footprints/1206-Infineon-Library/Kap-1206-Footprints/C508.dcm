@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 12061C273KAT2A
+D Capacitor 1206 0.027UF +/-10% 100V
+K
+F 
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RMCF1206FT100K
+D RES, 1206, 100 Kohm, 1%, 0.25W
+K
+F https://cs.seielect.com/catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+#End Doc Library
