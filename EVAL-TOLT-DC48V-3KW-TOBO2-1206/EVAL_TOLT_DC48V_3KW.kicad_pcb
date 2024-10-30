@@ -7104,6 +7104,17 @@
 			(pintype "passive")
 			(uuid "08f2361b-a5b3-4ea7-893c-266c4d7b4bd3")
 		)
+		(model "${INFINEON}/Q1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
@@ -16548,8 +16559,21 @@
 			(uuid "e01b7f3c-35a3-450b-bad1-ebc0b5930f9a")
 		)
 		(model "7461098.stp"
+			(hide yes)
 			(offset
-				(xyz 5.079999847 5.079999847 0.009999999626)
+				(xyz 5 0 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${INFINEON}/J1.stp"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21154,6 +21178,17 @@
 			(pinfunction "DRAIN")
 			(pintype "passive")
 			(uuid "8a6fcf60-ae97-4f89-b91d-afc8aaa97995")
+		)
+		(model "${INFINEON}/Q1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
