@@ -10,4 +10,5 @@
   (lib (name "Misc-Footprints-1206")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/Library-1206/Misc-Footprints-1206.pretty")(options "")(descr ""))
   (lib (name "Capacitor-Footprintsv2-1206")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/Library-1206/Capacitor-Footprintsv2-1206.pretty")(options "")(descr ""))
   (lib (name "Capacitor-Footprints-1206")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/Library-1206/Capacitor-Footprints-1206.pretty")(options "")(descr ""))
+  (lib (name "1206-Infineon-Library")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/1206-Infineon-Library")(options "")(descr ""))
 )
