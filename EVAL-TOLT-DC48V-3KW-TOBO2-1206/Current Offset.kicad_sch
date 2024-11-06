@@ -2463,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor-1206-Footprints:R60"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 77.47 32.512 90)
 			(effects
 				(font
@@ -2942,7 +2942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor-1206-Footprints:R61"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 78.74 95.758 90)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Kap-1206-Footprints:C15"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 147.32 56.1848 0)
 			(effects
 				(font
@@ -4239,7 +4239,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Kap-1206-Footprints:C72"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 50.8 82.8548 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor-1206-Footprints:R12"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 143.51 33.528 90)
 			(effects
 				(font
