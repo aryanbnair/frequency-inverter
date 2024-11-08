@@ -4370,6 +4370,28 @@
 		)
 		(uuid "c2bb83c3-cd78-402d-aeb9-14a35e0d953d")
 	)
+	(global_label "I_PHASE_U"
+		(shape input)
+		(at 133.35 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49251b95-ae62-4dd1-b04d-e87a14de1010")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 48.0567 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_BAT-"
 		(shape input)
 		(at 53.34 66.04 180)
