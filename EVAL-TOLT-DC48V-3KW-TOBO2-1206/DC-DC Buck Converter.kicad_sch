@@ -174,175 +174,6 @@
 				)
 			)
 		)
-		(symbol "1725656_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J4"
-				(at -10.16 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V_EXT"
-				(at -10.16 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "1725656"
-				(at -16.51 94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL"
-				(at -16.51 194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "8.65"
-				(at -16.51 394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Phoenix Contact"
-				(at -16.51 494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1725656"
-				(at -16.51 594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "651-1725656"
-				(at -16.51 694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725656?qs=Ul7CXFMnlWWQeccayYbRmw%3D%3D"
-				(at -16.51 794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "1725656"
-				(at -16.51 894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1725656/phoenix-contact?region=nac"
-				(at -16.51 994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1725656_1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 6.985 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "C13:C1206C103J3RACAUTO"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2343,6 +2174,378 @@
 				)
 			)
 		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x2_Male_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x3_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x3_Male"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x03_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x3_Male_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x3_Male_1_1"
+				(pin passive line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "R1:PMR18EZPJ000"
 			(pin_names
 				(offset 1.016)
@@ -3871,157 +4074,6 @@
 				)
 			)
 		)
-		(symbol "TSW-103-08-L-S:TSW-103-08-L-S"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J?"
-				(at 9.525 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TSW-103-08-L-S"
-				(at 9.525 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "TSW-103-08-L-S:SAMTEC_TSW-103-08-L-S"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TSW-103-08-L-S_0_0"
-				(rectangle
-					(start -7.62 5.08)
-					(end -3.81 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -4468,12 +4520,6 @@
 		)
 	)
 	(junction
-		(at 254 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "022b5838-c503-4a96-961f-94342292bb96")
-	)
-	(junction
 		(at 31.75 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4496,12 +4542,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22479b59-6b98-450c-a634-81a9966cedf8")
-	)
-	(junction
-		(at 242.57 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3693c750-c7c4-43a2-b626-7ae60bae7362")
 	)
 	(junction
 		(at 69.85 39.37)
@@ -4550,6 +4590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79a78a7b-cc79-4014-a463-b20f696a6f75")
+	)
+	(junction
+		(at 254 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b13dc51-7cb9-4990-a262-d5c54f8beaaa")
 	)
 	(junction
 		(at 153.67 55.88)
@@ -4635,6 +4681,12 @@
 		(color 0 0 0 0)
 		(uuid "f05df97d-6fb3-4914-a477-aac0e3c50afa")
 	)
+	(junction
+		(at 242.57 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc97d378-6c85-48f1-b4fc-711f60a9239d")
+	)
 	(no_connect
 		(at 130.81 60.96)
 		(uuid "92bc5f54-d20b-4b60-bee3-69798814afa7")
@@ -4671,13 +4723,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 53.34) (xy 254 67.31)
+			(xy 251.46 55.88) (xy 242.57 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ac12d70-2813-4f89-8ce2-bb01993c0dfa")
+		(uuid "0aa61ec2-4dc6-43a7-92a2-4d0f4197acec")
 	)
 	(wire
 		(pts
@@ -4921,16 +4973,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 55.88) (xy 251.46 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a900f1-9e6b-4fb3-923f-e18a8a24b313")
-	)
-	(wire
-		(pts
 			(xy 53.34 132.08) (xy 53.34 128.27)
 		)
 		(stroke
@@ -4971,17 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 53.34) (xy 265.43 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5799c1f2-231c-493e-bab7-0db9327a5d08")
-	)
-	(wire
-		(pts
-			(xy 254 67.31) (xy 254 72.39)
+			(xy 254 53.34) (xy 254 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4998,6 +5030,16 @@
 			(type default)
 		)
 		(uuid "5c91a81c-73b7-47f2-982f-4bd66ef58cdd")
+	)
+	(wire
+		(pts
+			(xy 267.97 53.34) (xy 280.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9f3bf3-a43f-44fc-9d71-75254cb2d1b4")
 	)
 	(wire
 		(pts
@@ -5048,6 +5090,16 @@
 			(type default)
 		)
 		(uuid "6571c737-4822-438e-90e4-764ae22d6c38")
+	)
+	(wire
+		(pts
+			(xy 254 67.31) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676d908c-9111-4922-9e94-25dace2bb177")
 	)
 	(wire
 		(pts
@@ -5211,6 +5263,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 53.34) (xy 265.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bedecda-388c-40eb-acb8-b4e8cf684592")
+	)
+	(wire
+		(pts
 			(xy 69.85 50.8) (xy 69.85 48.26)
 		)
 		(stroke
@@ -5261,16 +5323,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 53.34) (xy 280.67 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4724990-5533-446b-94e2-217de47f6336")
-	)
-	(wire
-		(pts
 			(xy 130.81 55.88) (xy 149.86 55.88)
 		)
 		(stroke
@@ -5278,16 +5330,6 @@
 			(type default)
 		)
 		(uuid "a611d2f0-b137-4364-8312-b118c9b47646")
-	)
-	(wire
-		(pts
-			(xy 242.57 55.88) (xy 251.46 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76053fc-61f3-4129-91bf-9e41a6b10c3a")
 	)
 	(wire
 		(pts
@@ -5308,6 +5350,16 @@
 			(type default)
 		)
 		(uuid "b421a854-9906-46a3-b414-a2593432ccdb")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55f909f-0f0b-4a0a-abce-b5d07e36cd69")
 	)
 	(wire
 		(pts
@@ -7498,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 201.93 68.8848 0)
 			(effects
 				(font
@@ -10863,8 +10915,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TSW-103-08-L-S:TSW-103-08-L-S")
-		(at 254 40.64 90)
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x3_Male")
+		(at 254 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10872,7 +10924,7 @@
 		(dnp no)
 		(uuid "754768b9-593b-43e7-9496-db377e552f2a")
 		(property "Reference" "J3"
-			(at 248.92 41.275 90)
+			(at 247.142 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10933,7 @@
 			)
 		)
 		(property "Value" "EXT/ITN 12V"
-			(at 248.92 43.18 90)
+			(at 247.904 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,17 +10942,16 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 254 40.64 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 40.64 0)
+			(at 245.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,8 +10959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 40.64 0)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -3"
+			(at 254 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +10969,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 254 40.64 0)
+			(at 254 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10928,7 +10979,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 254 40.64 0)
+			(at 254 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +10989,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec"
-			(at 254 40.64 0)
+			(at 254 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,13 +10998,13 @@
 				(hide yes)
 			)
 		)
-		(pin "01"
+		(pin "2"
 			(uuid "27cfe85f-b0d8-4d7e-8792-075c43c614de")
 		)
-		(pin "02"
+		(pin "3"
 			(uuid "75d5de1b-ef20-4c04-975f-9e0d4d12bd6a")
 		)
-		(pin "03"
+		(pin "1"
 			(uuid "1afe9bc9-b60a-46b6-8972-0e98447bf674")
 		)
 		(instances
@@ -15478,9 +15529,8 @@
 		)
 	)
 	(symbol
-		(lib_name "1725656_1")
-		(lib_id "1725656:1725656")
-		(at 267.97 53.34 270)
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 266.7 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15488,7 +15538,7 @@
 		(dnp no)
 		(uuid "d21a7d1f-7c0c-41d0-8130-43b7f9a11d80")
 		(property "Reference" "J4"
-			(at 269.24 57.15 90)
+			(at 271.018 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15546,7 @@
 			)
 		)
 		(property "Value" "+12V_EXT"
-			(at 267.335 62.23 90)
+			(at 266.7 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15504,27 +15554,25 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 362.89 36.83 0)
+			(at 262.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1725656&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL"
-			(at 462.89 36.83 0)
+			(at 274.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 267.97 53.34 0)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15533,7 +15581,7 @@
 			)
 		)
 		(property "Height" "8.65"
-			(at 662.89 36.83 0)
+			(at 661.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15543,7 +15591,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 762.89 36.83 0)
+			(at 761.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,7 +15601,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1725656"
-			(at 862.89 36.83 0)
+			(at 861.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15563,7 +15611,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1725656"
-			(at 962.89 36.83 0)
+			(at 961.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15573,7 +15621,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725656?qs=Ul7CXFMnlWWQeccayYbRmw%3D%3D"
-			(at 1062.89 36.83 0)
+			(at 1061.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15583,7 +15631,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1725656"
-			(at 1162.89 36.83 0)
+			(at 1161.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15641,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1725656/phoenix-contact?region=nac"
-			(at 1262.89 36.83 0)
+			(at 1261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 190.1952 81.28 0)
 			(effects
 				(font
