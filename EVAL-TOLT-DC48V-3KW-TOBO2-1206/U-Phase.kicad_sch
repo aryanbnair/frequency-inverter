@@ -9424,17 +9424,6 @@
 		)
 		(uuid "bab33045-57bc-4710-912f-e8ab29943688")
 	)
-	(label "U_CS+"
-		(at 93.98 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c60b9622-389a-4cdd-92f9-72f85b4afac4")
-	)
 	(label "+5V"
 		(at 60.325 83.82 0)
 		(fields_autoplaced yes)
@@ -9525,6 +9514,28 @@
 		(uuid "2d29ca59-b467-4db1-9bbd-8a004858154d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 283.8781 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U_CS+"
+		(shape input)
+		(at 93.98 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "504271b5-dae9-4cc7-8cf9-74f3f5cf0473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3152 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Misc-Footprints:D3"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 85.725 33.02 0)
 			(effects
 				(font
@@ -17700,7 +17711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Misc-Footprints:D4"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -23520,7 +23531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Misc-Footprints:D4"
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 139.7 52.07 0)
 			(effects
 				(font
