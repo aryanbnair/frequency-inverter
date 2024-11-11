@@ -8623,7 +8623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 190.5 53.34 0)
 			(effects
 				(font
@@ -13825,7 +13825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 278.765 30.48 0)
 			(effects
 				(font
@@ -18261,7 +18261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 107.95 100.33 0)
 			(effects
 				(font

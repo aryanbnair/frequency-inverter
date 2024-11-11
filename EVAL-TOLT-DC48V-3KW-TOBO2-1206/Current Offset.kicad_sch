@@ -3420,7 +3420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 184.785 68.58 0)
 			(effects
 				(font

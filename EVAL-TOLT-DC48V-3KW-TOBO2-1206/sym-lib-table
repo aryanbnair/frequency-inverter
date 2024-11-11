@@ -90,4 +90,5 @@
   (lib (name "R501")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/1206-Infineon-Library/Resistor-1206-Symbols/R501.kicad_sym")(options "")(descr ""))
   (lib (name "R502")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/1206-Infineon-Library/Resistor-1206-Symbols/R502.kicad_sym")(options "")(descr ""))
   (lib (name "R503")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/1206-Infineon-Library/Resistor-1206-Symbols/R503.kicad_sym")(options "")(descr ""))
+  (lib (name "IPTG014N10NM5ATMA1")(type "KiCad")(uri "/home/aryan-nair/Desktop/variable-frequency-drive/Symbols and Footprints/1206-Infineon-Library/Misc-Symbols/IPTG014N10NM5ATMA1.kicad_sym")(options "")(descr ""))
 )

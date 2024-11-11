@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPTG014N10NM5ATMA1
+D OptiMOS 5 Power-Transistor, 100V
+K
+F https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54
+$ENDCMP
+#
+#End Doc Library
