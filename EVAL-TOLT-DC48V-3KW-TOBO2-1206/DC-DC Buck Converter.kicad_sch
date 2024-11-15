@@ -1496,151 +1496,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Filled_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3848,6 +3703,310 @@
 				)
 			)
 		)
+		(symbol "SBRD10200:SBRD10200TR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D1"
+				(at 16.5099 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "770 mV, 5.5 A"
+				(at 19.0499 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "DPAK_SBRD10200_6P6X6P1_SDS"
+				(at 0.127 13.843 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SBRD10200TR"
+				(at 0.381 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, filled shape"
+				(at -2.413 20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SBRD10200TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DPAK_SBRD10200_6P6X6P1_SDS DPAK_SBRD10200_6P6X6P1_SDS-M DPAK_SBRD10200_6P6X6P1_SDS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SBRD10200TR_1_1"
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 27.94 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -3.81) (xy 18.415 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.27) (xy 16.51 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -2.54) (xy 16.51 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -1.27) (xy 18.415 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -7.62) (xy 27.94 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.27) (xy 16.51 -3.81) (xy 18.415 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.24 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 7.62)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 7.62)
+					(name "BASE_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TLS205B0EJ V50:TLS205B0EJ_V50"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4598,12 +4757,6 @@
 		(uuid "7b13dc51-7cb9-4990-a262-d5c54f8beaaa")
 	)
 	(junction
-		(at 153.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d3c62e9-c44d-4d84-9080-4bbec245cc33")
-	)
-	(junction
 		(at 53.34 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4652,6 +4805,12 @@
 		(uuid "b19dd4a5-79dc-43fe-b0d4-1b6b0737e23f")
 	)
 	(junction
+		(at 162.306 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3295738-5214-4b7a-8c0f-a4634830a571")
+	)
+	(junction
 		(at 95.25 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4662,6 +4821,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c20697ac-ad9b-43b6-8d82-31c1dda6df37")
+	)
+	(junction
+		(at 164.846 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c31d4c67-983a-40fb-a0a6-67f418e7f479")
 	)
 	(junction
 		(at 189.23 81.28)
@@ -4993,6 +5158,16 @@
 	)
 	(wire
 		(pts
+			(xy 159.766 17.78) (xy 164.846 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbf474e-d8ea-41a8-b499-b87e43b53b0e")
+	)
+	(wire
+		(pts
 			(xy 254 104.14) (xy 254 111.76)
 		)
 		(stroke
@@ -5113,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 55.88) (xy 173.99 55.88)
+			(xy 149.86 55.88) (xy 162.306 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5160,6 +5335,16 @@
 			(type default)
 		)
 		(uuid "6f6d7375-5962-4d5f-846e-bfc7289592cb")
+	)
+	(wire
+		(pts
+			(xy 162.306 53.34) (xy 162.306 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73858b71-1715-4db8-9730-eede9b3e7849")
 	)
 	(wire
 		(pts
@@ -5263,6 +5448,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.306 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a29de11-2882-4736-86d7-32bcfa4532d7")
+	)
+	(wire
+		(pts
 			(xy 256.54 53.34) (xy 265.43 53.34)
 		)
 		(stroke
@@ -5340,16 +5535,6 @@
 			(type default)
 		)
 		(uuid "a9eb13d7-bdda-43fc-ae5d-acc4c802c6ae")
-	)
-	(wire
-		(pts
-			(xy 149.86 55.88) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b421a854-9906-46a3-b414-a2593432ccdb")
 	)
 	(wire
 		(pts
@@ -5660,6 +5845,16 @@
 			(type default)
 		)
 		(uuid "eac057ce-8364-4628-956e-e776b6f480fc")
+	)
+	(wire
+		(pts
+			(xy 164.846 16.256) (xy 164.846 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef25fab5-b7d6-48bb-a78d-4d343bab8451")
 	)
 	(wire
 		(pts
@@ -6489,76 +6684,6 @@
 			(project "EVAL_TOLT_DC48V_3KW"
 				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/9ee2cd02-96d7-461b-b7fb-170453b1d10b"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Filled")
-		(at 153.67 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0555cec3-aab2-4b94-9468-3b7c60474715")
-		(property "Reference" "D1"
-			(at 156.21 58.1024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "770 mV, 5.5 A"
-			(at 156.21 60.6424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, filled shape"
-			(at 153.67 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5274a8d-4ad9-428d-b1b0-3f21eba2d9db")
-		)
-		(pin "1"
-			(uuid "bd44f548-d025-4793-8c20-b0d5a573c365")
-		)
-		(instances
-			(project "EVAL_TOLT_DC48V_3KW"
-				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/9ee2cd02-96d7-461b-b7fb-170453b1d10b"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12086,7 +12211,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
+		(property "Footprint" "Misc-Footprints:L1"
 			(at 189.23 55.88 0)
 			(effects
 				(font
@@ -12471,17 +12596,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 153.67 63.5 0)
+		(lib_id "SBRD10200:SBRD10200TR")
+		(at 164.846 17.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8bc7b537-5a7e-49f6-9a41-8660605dbf5e")
-		(property "Reference" "#PWR028"
-			(at 153.67 69.85 0)
+		(uuid "9b310502-5037-4a2b-9e3f-5cac71fa2314")
+		(property "Reference" "D1"
+			(at 168.91 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "770 mV, 5.5 A"
+			(at 168.91 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Misc-Footprints:DPAK_SBRD10200_6P6X6P1_SDS"
+			(at 178.689 17.907 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SBRD10200TR"
+			(at 174.498 18.161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, filled shape"
+			(at 184.912 15.367 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,48 +12652,19 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 153.67 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "ef2e620c-76aa-4093-8184-e8309d3d7fb5")
 		)
 		(pin "1"
-			(uuid "b8127ccf-af49-41f6-a9bc-eaf0169b744f")
+			(uuid "b9774b77-9d07-4549-83e5-d66dd2511122")
+		)
+		(pin "3"
+			(uuid "fa47284c-fb8d-4f35-b6c6-21d36d02afaf")
 		)
 		(instances
 			(project "EVAL_TOLT_DC48V_3KW"
 				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/9ee2cd02-96d7-461b-b7fb-170453b1d10b"
-					(reference "#PWR028")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15523,6 +15657,71 @@
 			(project "EVAL_TOLT_DC48V_3KW"
 				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/9ee2cd02-96d7-461b-b7fb-170453b1d10b"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 164.846 16.256 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d215bcbd-19aa-40a8-b3d3-9ae20535f982")
+		(property "Reference" "#PWR033"
+			(at 164.846 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 170.434 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.846 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.846 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 164.846 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0ab7a7d-d998-4849-92ea-3824a8c9902d")
+		)
+		(instances
+			(project "EVAL_TOLT_DC48V_3KW"
+				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/9ee2cd02-96d7-461b-b7fb-170453b1d10b"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
