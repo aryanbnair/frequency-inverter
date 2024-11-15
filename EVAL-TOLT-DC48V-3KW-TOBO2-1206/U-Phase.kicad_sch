@@ -5545,6 +5545,12 @@
 		(uuid "38357f56-70c0-430a-9faf-b56b2703fcc5")
 	)
 	(junction
+		(at 38.1 47.244)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a5cc4d8-c157-43ef-b6e1-b9922e673183")
+	)
+	(junction
 		(at 228.092 35.052)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6646,6 +6652,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 47.244) (xy 38.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888fdd90-4686-475c-bbd8-b2c9a3cf1de8")
+	)
+	(wire
+		(pts
 			(xy 151.13 49.022) (xy 177.292 49.022)
 		)
 		(stroke
@@ -7076,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 44.45) (xy 38.1 50.8)
+			(xy 38.1 44.45) (xy 38.1 47.244)
 		)
 		(stroke
 			(width 0)
@@ -7698,7 +7714,7 @@
 			)
 		)
 	)
-	(global_label "U-L"
+	(global_label "U-H"
 		(shape input)
 		(at 24.13 133.35 180)
 		(fields_autoplaced yes)
@@ -7710,7 +7726,7 @@
 		)
 		(uuid "aa5d1f1d-5dd3-43a0-b60b-c7969ece45b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.2932 133.35 0)
+			(at 16.9114 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 85.852 33.02 0)
 			(effects
 				(font
@@ -10904,6 +10920,73 @@
 			(project "EVAL_TOLT_DC48V_3KW"
 				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/2485f593-b019-439d-890e-42320f426831"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 47.244 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a43cf02-4653-444d-bc68-5d52c1935ba6")
+		(property "Reference" "#FLG03"
+			(at 40.005 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 41.402 47.2439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "423deb9f-eb78-4ed4-91d5-ea8f431b94b9")
+		)
+		(instances
+			(project "EVAL_TOLT_DC48V_3KW"
+				(path "/ab32ac57-1c18-4307-8f91-d2778314d165/2485f593-b019-439d-890e-42320f426831"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
